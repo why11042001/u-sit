@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftar_email">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollvv"
+            android:padding="4dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="252dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="108dp"
+            android:text="Daftar Dengan Email"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:text="Kode akan dikirim ke email anda"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/ednama"
+            android:layout_width="311dp"
+            android:layout_height="64dp"
+            android:background="@drawable/path_415"
+            android:hint=" Nama"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="311dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/path_415"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword1"
+            android:layout_width="311dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/path_415"
+            android:hint=" Password"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/retypepassword"
+            android:layout_width="311dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/path_415"
+            android:hint=" Tulis ulang Password"
+             android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/passal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Password tidak sama"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/nohp"
+            android:layout_width="311dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/path_415"
+            android:hint=" No HP"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/reff"
+            android:layout_width="311dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/path_415"
+            android:hint=" Kode Undangan (Opsional)"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="335dp"
+            android:layout_height="58dp"
+            android:onClick="daftar"
+            android:layout_marginTop="68dp"
+            android:textSize="19sp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/white"
+            android:text="Lanjutkan"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+</LinearLayout>
+        </ScrollView>
+</LinearLayout>

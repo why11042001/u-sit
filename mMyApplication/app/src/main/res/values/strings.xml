@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">U-Sit</string>
+    <string name="title_activity_success">success</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_term">Term</string>
+    <string name="title_activity_daftar_email">daftar_email</string>
+    <string name="syarat">1.    U-Sit merupakan penyedia jasa untuk menghubungkan pihak customer dan pihak nelayan/pembudidaya untuk melakukan transaksi jual-beli dengan sistem pre-order.\n
+    2.  Saat customer memesan suatu produk, U-Sit akan membuat pre-order kepada pihak nelayan/pembudidaya.\n
+    3.  Pre-order akan berlangsung paling lama 3 hari dengan status order diproses. Jika setelah 3 hari produk tidak tersedia atau nelayan tidak merespon maka order akan dibatalkan.\n
+    3.  Segala tindak kecurangan yang dilakukan oleh customer akan mengakibatkan suspend atau pemblokiran akun dan U-Sit akan dibebaskan dari segala bentuk kerugian apapun.\n
+    4.  Anda Setuju bahwa segala hal menyimpang dan kecacatan yang ada pada produk bukan tanggung jawab dari U-Sit.\n
+    6.  Pelanggan wajib untuk melengkapi data-data dengan valid termasuk email dan nomor hp yang dapat dihubungi. Merupakan tanggung jawab dari pelanggan untuk menyediakan data-data yang valid. kami akan menggunakan data-data tersebut untuk kebutuhann konfirmasi transaksi dan pengantaran.\n</string>
+    <string name="server_client_id">134933501170-nt9lr9a6hg9khmasan7v6fggerkpt08t.apps.googleusercontent.com</string>
+</resources>

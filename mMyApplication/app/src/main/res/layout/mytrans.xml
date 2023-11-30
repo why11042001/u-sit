@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:background="@drawable/roundedbg"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:background="@color/white"
+        android:id="@+id/cvtrans"
+        android:elevation="3dp"
+        app:cardCornerRadius="5dp">
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@color/white"
+                android:id="@+id/icontr"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:adjustViewBounds="true"
+                android:padding="10dp"
+                android:scaleType="fitCenter"/>
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_toRightOf="@+id/icontr"
+                android:id="@+id/tes">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titletr"
+                    android:layout_marginTop="5dp"
+                    android:textSize="19sp"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:text="title"/>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/white"
+                android:id="@+id/jOrder"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="7dp"
+                android:layout_toRightOf="@+id/tes"
+                android:gravity="right"
+                android:text="title"
+                android:textSize="15sp" />
+            <LinearLayout
+
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/tes"
+                android:layout_toRightOf="@+id/icontr">
+                <TextView
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/torder"
+                    android:textSize="11sp"
+                    android:text="title"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="1dp"
+        android:background="@color/hintcolor"
+        app:layout_constraintTop_toBottomOf="@id/cvtrans"/>
+</LinearLayout>
